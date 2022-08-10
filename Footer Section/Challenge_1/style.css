@@ -1,0 +1,66 @@
+.footer {
+  margin-top: 302px;
+  height: auto;
+}
+
+/* TODO: learnings  - divs side by side ,positions , not selector */
+
+.content div {
+  display: inline-block;
+  margin-left: 140px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.content {
+  width: 80%;
+  margin-left: 175px;
+}
+
+.heading {
+  margin-left: 340px;
+}
+
+.heading h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.services {
+  position: relative;
+  bottom: 85px;
+}
+
+.social-media {
+  position: relative;
+  bottom: 47px;
+}
+
+.details {
+  position: relative;
+  bottom: 10px;
+}
+
+.links {
+  position: relative;
+  bottom: 80px;
+}
+
+footer {
+  margin-top:25px;
+  height: 70px;
+}
+
+footer:not(hr){
+    text-align: center;
+    padding-top: 10px;
+}
+
+hr{
+    position: relative;
+    bottom: 15px;
+    color: #A9A9A9;
+}

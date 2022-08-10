@@ -1,0 +1,41 @@
+body {
+    background-color: #e3f6f5;
+}
+
+.btn-wrapper{
+ text-align: center;
+ margin-top: 350px;
+}
+
+.btn{
+    width: 230px;
+    height:47px;
+    border-radius: 22px;
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #0047ab;
+    background: linear-gradient( #0000CD,#000080);
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-text-two{
+    display: none;
+}
+
+.btn-text-one{
+    display: none;
+}
+
+.btn::after{
+    content: "EXPLORE MORE";
+}
+
+.btn:hover:after{
+    content: "It's Interesting";
+}
+
+.btn:hover{
+    box-shadow: 1px 6px 12px 5px #808080;
+    transition: 400ms;
+} 
