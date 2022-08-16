@@ -1,0 +1,25 @@
+nav {
+  background-color: #000;
+  display: inline-block;
+  width: 480px;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 540px;
+  margin-top: 300px;
+}
+
+.nav-item {
+  margin-right: 45px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #f9f6ee;
+}
+
+nav a:first-child {
+  margin-left: 37px;
+}
+
+nav a:nth-child(3) {
+  color: #0ff0fc;
+}
