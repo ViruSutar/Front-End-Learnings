@@ -2,4 +2,41 @@
 * {
   font-family: "poppins", "verdana";
   box-sizing: border-box;
+  background-color: #000;
 }
+
+h1,h2{
+  color: #fff;
+  text-align: center;
+}
+
+h3{
+  margin-left: 330px;
+}
+
+.yo{
+  color: #fff;
+  margin-left: 370px;
+}
+
+input,select{
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+option{
+  background-color: #fff;
+
+}
+button{
+  background-color: #319DA0;
+  width: 320px;
+  height: 33px;
+  color: #000;
+  border-radius: 10px;
+}
+
+b{
+  background-color: #319DA0;
+}
+
