@@ -1,1 +1,47 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+body {
+    font-family: 'Indie Flower';
+}
+
+hr{
+    border: none;
+    height: 3.5px;
+    background-color: #696969;
+    margin-top: -5px;
+}
+
+h1{
+    color: #2C3639;
+    margin-top: 5px;
+}
+
+caption{
+    color: #2C3639;
+    font-weight: 800;
+    font-size: 1.3em;
+    position: absolute;
+    bottom: 335px;
+    left: 135px;
+}
+
+#myTable {
+margin-top: -5px; 
+}
+
+tr{
+    background-color: #3af6cd;
+    font-size: 1.2rem;
+}
+
+th{
+    color: #D61C4E;
+}
+
+td{
+    text-align: center;
+    font-weight: 600;
+}
+
+#myTable tr:nth-child(3) td:last-child{
+background-color: #607EAA;
+}
