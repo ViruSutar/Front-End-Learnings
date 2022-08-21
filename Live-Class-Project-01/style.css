@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Orbitron";
+}
+
+
+/* Nav section */
+
+.nav-bar ul li{
+    display: inline;
+    margin-right: 45px;
+    font-size:1.5em;
+    font-weight: 500;
+}
+
+.list-item:nth-child(1){
+    font-weight: 700;
+}
+
+.list-item:nth-child(1)::after {
+    content: "  ";
+    position: absolute;
+    width: 45px;
+    margin-top: 30px;
+    margin-left: -55px;
+    border-bottom: 3px solid #000;
+} 
+
+.navbar-container{
+    margin-top: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: aliceblue; */
+    width: 90%;
+    height: 80px;
+}
+
+.nav-bar{
+    text-align: center;
+    margin-top:-30px ;
+    
+}
+
+[alt="brand-logo"]{
+width: 10%;
+margin-left: 55px;
+}
+
+.button-group{
+ display: flex;
+ float: right;
+ margin-top: -35px;
+ padding-right: 20px;
+ width: 18%;
+}
+
+.search-icon svg{
+    width: 22px;
+}
+
+
+.nav-button{
+    margin-left: 20px;
+    width:157%;
+    height: 35px;
+    border-radius: 12px;
+    font-size: large;
+    background-color: #ffff;
+}
+
+/* <!-- Hero Banner Section --> */
+
+.hero-container{
+margin-top: 165px;
+width: 100%;
+height: auto;
+}
+
+/* section:nth-child(2){
+/* background-color: antiquewhite; */
+/* margin-top: 150px;
+width: 100%;
+height: 1000px;
+} */ 
+
+[alt="person-hero-iamge"]{
+    position: absolute;
+    margin-top: -375px;
+    margin-left: 155px;
+    width: 25%;
+    height: 470px;
+}
+
+
+.star{
+    margin-left: 730px;
+    position: absolute;
+    margin-top: -95px;
+}
+
+.star img{
+    max-width: 70%;
+}
+
+.globe{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -140px;
+}
+
+.globe img{
+    max-width: 70%;
+}
+
+[alt="square-pattern"]{
+    display: inline-block;
+    margin-left: 274px;
+    margin-top: 100px;
+    margin-bottom: -150px;
+    width:21%;
+}
+
+.hero-container-right{
+ display: inline-block;
+ width: 55%;
+ margin-left: 630px;
+ height: 500px;
+ text-align: center;
+ margin-top: -310px;
+}
+
+.hero-heading{
+    font-size: 3.5em;
+    font-weight:700;
+}
+
+.hero-description{
+    /* background-color: antiquewhite; */
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding-top: 20px;
+    font-size: 0.9em;
+    margin-bottom: 70px;
+}
+
+.button-email{
+ width: 25%;
+ height: 32px;
+ font-size: 1.25em;
+ border-radius: 8px;
+ margin-right: 10px;
+ background-color: #FFFFFF;
+}
+
+.button-join{
+ width: 17%;
+ height: 30px;
+ background-color:#000000 ;
+ font-size: 1.3em;
+ border-radius: 8px;
+ color: #FFFFFF;
+}
+
+.hero-container-right div:nth-child(3){
+ margin-bottom: 75px;
+}
+
+ /* contact us section */
+
+ .contact-heading{
+    margin-bottom: 20px;
+ }
+
+ .icons span{
+    margin-right: 10px;
+ }
+
+ 
