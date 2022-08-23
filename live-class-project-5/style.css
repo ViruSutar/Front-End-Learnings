@@ -1,0 +1,98 @@
+
+/* time take 2.5hrs */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* navbar section */
+
+.logo{
+    width: 6%;
+    margin-top:25px;
+    margin-left: 80px;
+}
+
+.navbar{
+    background-color: #000;
+    color: #fff;
+    height: 80px;
+}
+
+.list{
+    list-style: none;
+    position: relative;
+    left: 220px;
+    top:-50px;
+    border-left:solid 2px #808080;
+    height: 30px;
+    padding-top: 15px;
+    width: 700px;
+}
+
+.list li:first-child{
+    padding-left: 65px;
+}
+
+
+.list li{
+    display: inline;
+    margin-right: 60px;
+}
+
+.button-small{
+    position: relative;
+    width: 7.5%;
+    height: 30px;
+    background-color: #bb44c5;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    left: 1230px;
+    top:-84px;
+    font-size: 0.85em;
+}
+
+
+/* <!-- Hero Section --> */
+
+body {
+    height: 95vh;
+    background-image: url("./assets/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+[aria-label="hero"]{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 400px;
+    width: 800px;
+    height: auto;
+}
+
+.hero-heading{
+ color: #fff;
+ font-size: 4.3em;
+ font-weight: 600;
+ line-height: 80px;
+}
+
+.hero-description{
+ color: #fff;
+ font-size: 1.5em;
+}
+
+.button-large{
+    margin-top: 40px;
+    color: #fff;
+    font-weight: 500;
+    width: 33%;
+    height: 45px;
+    border: none;
+    background-color: #bb44c5;
+    font-size: 1.3em;
+    border-radius: 5px;
+}
