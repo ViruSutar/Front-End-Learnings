@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/* nav section */
+
+[alt="logo"] {
+  margin-top: 75px;
+  margin-left: 70px;
+  width: 90px;
+}
+
+.nav-items {
+  position: relative;
+  left: 450px;
+  top: -35px;
+}
+
+.nav-items h5 {
+  display: inline;
+  margin-right: 85px;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.nav-items h5:hover {
+  font-weight: 1000;
+  color: #ff6347;
+}
+
+[src="./images/actions.svg"] {
+  position: relative;
+  left: 1150px;
+  top: -65px;
+  width: 300px;
+}
+
+/* hero section */
+
+.left-section h3 {
+  /* background-color: red; */
+  width: 400px;
+  margin-left: 70px;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+.left-section h3 img {
+  width: 35px;
+}
+
+.left-section h1 {
+  margin-left: 70px;
+  font-size: 3.5em;
+  font-family: "Fredoka One";
+  font-weight: 100;
+}
+
+.sub-headlines {
+  margin-top: 10px;
+  margin-left: 140px;
+}
+
+.sub-headline img {
+  background-color: #ff6347;
+  border-radius: 10px;
+  padding: 5px;
+  width: 12px;
+  margin-right: 8px;
+  margin-top: 15px;
+  position: relative;
+  top: 4px;
+}
+
+.text {
+  margin-top: 40px;
+  margin-left: 65px;
+  width: 700px;
+  color: #808080;
+  font-size: 0.9em;
+}
+
+.action-btns {
+  margin-top: 40px;
+  margin-left: 65px;
+}
+
+.action-btn {
+  margin-right: 20px;
+  background-color: #ff6347;
+  border: none;
+  border-radius: 20px;
+  width: 130px;
+  height: 40px;
+  color: #fff;
+}
+
+.right-section {
+  /* background-color: red; */
+  width: 40%;
+  /* height: 10px; */
+  position: relative;
+  left: 800px;
+  bottom: 600px;
+}
+
+.discount {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  width: 150px;
+}
+
+.discount-content{
+  position:absolute;
+  top: 430px;
+  left: 90px;
+}
+
+[alt="headphone"] {
+  width:72%;
+  position: relative;
+  left: 50px;
+}
+
+
+
