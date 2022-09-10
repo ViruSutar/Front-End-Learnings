@@ -5,6 +5,10 @@
   font-family: "Red Rose", cursive;
 }
 
+body {
+  overflow: hidden;
+}
+
 .container{
   background:linear-gradient(rgba(4, 18, 50, 0.7),rgba(4, 18, 50, 0.7)), url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
   background-position: center;
