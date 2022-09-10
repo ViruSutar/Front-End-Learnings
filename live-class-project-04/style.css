@@ -4,6 +4,10 @@
     font-family: "Poppins";
 }
 
+body {
+    overflow: hidden;
+}
+
 /* Nav bar section */
 
 

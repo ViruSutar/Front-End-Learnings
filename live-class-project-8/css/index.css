@@ -4,6 +4,10 @@
     font-family: Roboto;
 }
 
+body{
+    overflow: hidden;
+}
+
 /* nav bar section */
 nav img{
     width: 90px;
